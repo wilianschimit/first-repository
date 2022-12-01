@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(imagens/fundo.jpg);
+    background-attachment: fixed;
+}
+main{
+    /*/text-align: center;/*/
+    margin-top: 150px;
+    
+}
+button{
+    padding: 10px;
+    border-radius:15px ;
+    color: rgba(225, 4, 233, 0.808);
+    background-color: yellow;
+    font-size: 15px;
+}
+button:hover{
+    background-color: green;
+    color: black;
+    font-size: 17px;
+    padding: 13px;
+}
+h1{
+    color: rgb(34, 31, 243);
+    width:450px ;
+    background-color: aliceblue;
+    border: 3px ridge black;
+    border-radius: 3px;
+}
+h1:hover{
+    color: rgb(10, 164, 175);
+}
+#teste{
+    width: 200px;
+}
+#format{
+    color: rgb(255, 20, 20);
+    font-size: 25px;
+    font-weight: bold;
+    width: 50%;
+}
+#format1{
+    text-align-last: left;
+}
